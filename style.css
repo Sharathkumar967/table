@@ -1,0 +1,199 @@
+
+h1{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    margin:
+    padding: 30px;
+    color: #ddd;
+    /* border: 1px solid #ddd; */
+    /* background-color: #ddd; */
+    position:fixed;
+    top:40%;
+    
+}
+
+
+
+img{
+    width:20px;
+height: 20px;
+display: flex;
+justify-content: center;
+position: absolute;
+margin: 10px 28px;
+background-color: #dddd;
+}
+
+input{
+    width:500px;
+    height: 30px;
+    padding-left: 40px;
+    text-size-adjust: 20px;
+    border-radius: 5px;
+    background-color: #dddd;
+    border-color: #dddd;
+    margin-left: 20px;
+}
+.letter-1{
+    font-size: 90px;
+    color: rgb(152, 202, 152);
+}
+.letter-2{
+    font-size: 70px;
+    color: rgb(152, 202, 152);
+}
+
+.letter-3{
+    font-size: 60px;
+    color: rgb(152, 202, 152);
+}
+
+.letter-4{
+    font-size: 50px;
+    color: rgb(152, 202, 152);
+}
+
+.letter-5{
+    font-size: 50px;
+    color: rgb(152, 202, 152);
+}
+
+
+.letter-6{
+    font-size: 50px;
+    color: rgb(152, 202, 152);
+}
+
+.letter-7{
+    font-size: 50px;
+    color: rgb(152, 202, 152);
+}
+
+.letter-8{
+    font-size: 50px;
+    color: rgb(152, 202, 152);
+}
+
+.letter-9{
+    font-size: 60px;
+    color: rgb(152, 202, 152);
+}
+
+.letter-10{
+    font-size: 70px;
+    color: rgb(152, 202, 152);
+}
+
+.letter-11{
+    font-size: 80px;
+    color: rgb(152, 202, 152);
+}
+
+
+.letter-12{
+    font-size: 90px;
+    color: rgb(152, 202, 152);
+}
+
+
+
+
+#class tr td a:link{
+    color: red;
+}
+
+#class tr td a{
+    text-decoration: none;
+
+}
+#class tr td a:visited{
+    color: green;
+}
+
+#class tr td a:active{
+    color: blue;
+}
+
+#class tr td a:hover{
+    color: deeppink;
+
+}
+#class{
+    width: 100%;
+    padding:8px ;
+    height: 100vh;
+}
+
+#class th,#class tr{
+    border: 2px solid #ffff;
+}
+
+#class tr td{
+    border: 1px solid #ddd;
+    position: relative;
+    padding: 10px;
+text-transform: uppercase;
+cursor: pointer;
+}
+ 
+#class tr:nth-child(odd){
+    background-color:#f2f2f2;
+}
+
+#class tr:hover{
+background-color: #dddd;
+}
+
+#class th {
+    background-color:green ;
+    padding: 10px;
+    color: #ffff;
+    text-align: left;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+#class th::after{
+    content: "";
+    width:0;
+    height:3px;
+    margin-left: 8px;
+    background-color:red;
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+transition: 0.5s;
+}
+
+#class th:hover::after{
+    width: 15%;
+}
+
+#class  td::after{
+    content: "";
+    width:0;
+    height:1px;
+    margin-left: 8px;
+    background-color:black;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+transition: 0.5s;
+}
+
+#class  td:hover::after{
+    width: 15%;
+}
+
+
+/* #class tr td a:active{
+    background-color: darkgreen;
+    color: red;
+} */
+
